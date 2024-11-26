@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    background-color: #60b5f1;
+    width: 25rem;
+}
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+.text-box {
+    width: 80%;
+    height: 2rem;
+    padding: 1rem;
+    outline: none;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.copy-btn {
+    height: 2.15rem;
+    width: 4rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.copy-btn:hover {
+    background-color: #2d6d9a;
+    color: #fff;
+}
+.slider{
+    width: 94%;
+    
+}
+.slider-cont {
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    gap: 0.3rem;
+}
+.gen-password {
+    margin-top: 2.2rem;
+    height: 2.15rem;
+    width: 10rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease;
+}
+.gen-password:hover {
+    background-color: #2d6d9a;
+    color: #fff;
+}
+
+/* and (max-width: 480px) */
+
+@media (max-width: 360px ) and (max-width: 480px) {
+    main {
+        width: 22rem;
+    }
+    
+}
